@@ -2,17 +2,12 @@
 
 int main(){
 
+float radius;
 
-int a,b,division;
+printf("radius =");
+scanf("%f",&radius);
 
-printf("Enter a =");
-scanf("%d",&a);
-
-printf("Enter b =");
-scanf("%d",&b);
-
-division = a/b;
-printf("division of = %d",division);
-
+float area = 3.14 * radius * radius;
+printf("area =%f",area);
     return 0;
 }
